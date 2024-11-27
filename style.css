@@ -1,0 +1,58 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.header-section {
+  background: linear-gradient(135deg, #007bff 30%, #ff6f61);
+  padding: 60px 0;
+}
+
+#planets h2, .card-title {
+  color: #ff6f61;
+}
+
+.planet-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  border-radius: 15px;
+  background: #2c2c2c;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.planet-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn-outline-primary {
+  color: #ff6f61;
+  border-color: #ff6f61;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+#planet-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
