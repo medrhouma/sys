@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Système Solaire</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz sur le Système Solaire</h1>
+    <div id="quiz">
+      <div class="question-container">
+        <p id="question">La question s'affichera ici</p>
+        <div class="options">
+          <button class="option" data-answer="0">Option 1</button>
+          <button class="option" data-answer="1">Option 2</button>
+          <button class="option" data-answer="2">Option 3</button>
+          <button class="option" data-answer="3">Option 4</button>
+        </div>
+      </div>
+      <div class="result-container" style="display: none;">
+        <p id="result"></p>
+        <button onclick="startQuiz()">Recommencer le Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

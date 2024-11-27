@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description de la Planète</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Système Solaire</a>
+        </div>
+    </nav>
+
+    <!-- Planète Détails Section -->
+    <div class="container my-5">
+        <div class="card planet-card mx-auto" style="max-width: 600px;">
+            <h2 class="text-center" id="planet-name">Nom de la Planète</h2>
+            <div class="text-center">
+                <img id="planet-image" src="#" alt="Image de la planète" class="img-fluid my-4 card-img-top">
+            </div>
+            <p id="planet-description" class="text-center lead">Description de la planète...</p>
+            <div id="planet-facts">
+                <h3 class="text-center">Faits intéressants :</h3>
+                <ul id="planet-facts-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
